@@ -133,6 +133,10 @@ public class StepDefinitions {
     @Given("g")
     public void g() {
 
+    } 
+    
+    @Given("m")
+    public void m(){
     }
 
     @When("w")
