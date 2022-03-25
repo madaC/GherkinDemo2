@@ -1,7 +1,8 @@
 #Auto generated Octane revision tag
-@TID1127REV0.1.0
-Feature: Feature:Test From Octane
+@BSPID1009REV0.2.0
+Feature: Test From Octane
 
+	@TSCID1132
 	Scenario Outline: cool scenario outline
 		Given I said "<word>"
 		When  You hear I said "<word>"
