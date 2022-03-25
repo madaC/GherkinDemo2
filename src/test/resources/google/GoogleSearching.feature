@@ -1,25 +1,37 @@
 #Auto generated Octane revision tag
-@BSPID1012REV0.2.0
-Feature: Google Searching changed by Riki12
-  As a web surfer, I want to search Google, so that I can learn new things.
+@BSPID1012REV0.3.0
+Feature: test Feature2
+  Background:
+    Given back2
+    And back2
+  @TSCID1139
+  Scenario: test scenario2
+    Given test2
+    When test2
+    Then test2
+  @TSCID1140
+  Scenario Outline: Table TTT2
+    Given hello "<name>"
+    When what "<question>"
+    Then wow
 
-   # Author: Andy
-  @TSCID1136
-  Scenario: Simple Google search
-    Given a web browser is on the Google page
-    When the search phrase "panda" is entered
-    Then results for "panda" are shown
-    And the related results include Panda Express
+    Examples:
+      |name	|question	|
+      |dan	|what		|
+      |sari	|who		|
+  @TSCID1141
+  Scenario: test scenario3
+    Given test3
+    When test3
+    Then test3
+  @TSCID1142
+  Scenario Outline: Table TTT4
+    Given hello "<name>"
+    When what "<question>"
+    Then wow
 
-  @TSCID1137
-  Scenario Outline: Simple Google searches
-    Given a web browser is on the Google page
-    When the search phrase "<phrase>" is entered
-    Then results for "<phrase>" are shown
-    And the related results include "<related>"
-
-    Examples: Animals
-      | phrase   | related       |
-      | panda    | Panda Express |
-      | elephant | Elephant Man  |
+    Examples:
+      |name	|question	|
+      |dan	|what		|
+      |sari	|who		|
 
